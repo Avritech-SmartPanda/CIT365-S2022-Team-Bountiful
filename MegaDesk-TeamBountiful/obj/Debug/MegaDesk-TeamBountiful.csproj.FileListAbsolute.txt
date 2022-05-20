@@ -14,3 +14,4 @@ C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk-TeamBountiful\obj\Debug\MegaDe
 C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk-TeamBountiful\obj\Debug\MegaDesk_TeamBountiful.MainMenu.resources
 C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk-TeamBountiful\obj\Debug\MegaDesk_TeamBountiful.AddQuote.resources
 C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk-TeamBountiful\bin\Debug\desk.png
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk-TeamBountiful\obj\Debug\MegaDesk_TeamBountiful.DisplayQuote.resources

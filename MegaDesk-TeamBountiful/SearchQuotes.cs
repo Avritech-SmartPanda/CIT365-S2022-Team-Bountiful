@@ -30,17 +30,6 @@ namespace MegaDesk_TeamBountiful
             dataGridView1.Columns[5].Name = "Desk Drawers";
             dataGridView1.Columns[6].Name = "Rush Order Number";
             dataGridView1.Columns[7].Name = "Total Quote Price";
-
-
-            //foreach (var quote in allQuotes)
-            //{
-            //    string lastName = quote.Key;
-            //    Desk desk = quote.Value;
-
-            //    string[] row = new string[] { desk.firstName, desk.lastName, desk.width.ToString(), desk.depth.ToString(), desk.drawers.ToString(), desk.material };
-            //    dataGridView1.Rows.Add(row);
-            //}
-
         }
 
 
@@ -77,16 +66,5 @@ namespace MegaDesk_TeamBountiful
                 }
             }
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }
