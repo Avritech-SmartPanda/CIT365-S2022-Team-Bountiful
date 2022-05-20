@@ -14,7 +14,6 @@ namespace MegaDesk_TeamBountiful
 {
     public partial class SearchQuotes : Form
     {
-        public static Dictionary<string, Desk> allQuotes = AddQuote.allQuotes;
         public SearchQuotes()
         {
             InitializeComponent();
