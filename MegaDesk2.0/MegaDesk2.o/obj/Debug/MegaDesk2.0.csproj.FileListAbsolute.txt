@@ -1,0 +1,11 @@
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk2.0\MegaDesk2.o\bin\Debug\MegaDesk2.o.exe.config
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk2.0\MegaDesk2.o\bin\Debug\MegaDesk2.o.exe
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk2.0\MegaDesk2.o\bin\Debug\MegaDesk2.o.pdb
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk2.0\MegaDesk2.o\obj\Debug\MegaDesk2.0.csproj.AssemblyReference.cache
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk2.0\MegaDesk2.o\obj\Debug\MegaDesk2.0.csproj.SuggestedBindingRedirects.cache
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk2.0\MegaDesk2.o\obj\Debug\MegaDesk2.o.Form1.resources
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk2.0\MegaDesk2.o\obj\Debug\MegaDesk2.o.Properties.Resources.resources
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk2.0\MegaDesk2.o\obj\Debug\MegaDesk2.0.csproj.GenerateResource.cache
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk2.0\MegaDesk2.o\obj\Debug\MegaDesk2.0.csproj.CoreCompileInputs.cache
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk2.0\MegaDesk2.o\obj\Debug\MegaDesk2.o.exe
+C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk2.0\MegaDesk2.o\obj\Debug\MegaDesk2.o.pdb
