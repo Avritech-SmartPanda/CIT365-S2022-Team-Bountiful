@@ -17,11 +17,7 @@ namespace MegaDesk_TeamBountiful
             InitializeComponent();
         }
 
-        private void MainMenu_Load(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void newQuote_Click(object sender, EventArgs e)
         {
             AddQuote quoteForm = new AddQuote();
@@ -50,9 +46,5 @@ namespace MegaDesk_TeamBountiful
             this.Hide();
         }
 
-        private void mainPicture_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -32,12 +32,6 @@ namespace MegaDesk_TeamBountiful
             dataGridView1.Columns[7].Name = "Total Quote Price";
         }
 
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void searchButton_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();

@@ -121,7 +121,6 @@
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(388, 26);
             this.numericUpDown1.TabIndex = 6;
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // materialsInput
             // 
@@ -131,7 +130,6 @@
             this.materialsInput.Name = "materialsInput";
             this.materialsInput.Size = new System.Drawing.Size(386, 28);
             this.materialsInput.TabIndex = 10;
-            this.materialsInput.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -194,7 +192,6 @@
             this.totalQuote.Name = "totalQuote";
             this.totalQuote.Size = new System.Drawing.Size(386, 40);
             this.totalQuote.TabIndex = 18;
-            this.totalQuote.Click += new System.EventHandler(this.label7_Click);
             // 
             // nameError
             // 
@@ -204,7 +201,6 @@
             this.nameError.Name = "nameError";
             this.nameError.Size = new System.Drawing.Size(381, 27);
             this.nameError.TabIndex = 19;
-            this.nameError.Click += new System.EventHandler(this.label7_Click_1);
             // 
             // widthError
             // 
@@ -232,7 +228,6 @@
             this.rushOrder.Name = "rushOrder";
             this.rushOrder.Size = new System.Drawing.Size(386, 28);
             this.rushOrder.TabIndex = 22;
-            this.rushOrder.SelectedIndexChanged += new System.EventHandler(this.rushOrder_SelectedIndexChanged);
             // 
             // AddQuote
             // 

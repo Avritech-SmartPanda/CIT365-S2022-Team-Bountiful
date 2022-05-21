@@ -70,8 +70,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.quotesTable)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
-
         }
 
         #endregion

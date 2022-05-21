@@ -17,10 +17,21 @@ namespace MegaDesk_TeamBountiful
         public DisplayQuote()
         {
             InitializeComponent();
-
-            
+            fullname.Text = GeneralMembers.deskQuote.CustomerName;
+            quotationDate.Text = GeneralMembers.deskQuote.QuoteDate.ToString("dd MMMM yyyy");
+            widthValue.Text = GeneralMembers.deskQuote.Desk.Width.ToString() + " Inches";
+            depthValue.Text = GeneralMembers.deskQuote.Desk.Depth.ToString() + " Inches";
+            materialValue.Text = GeneralMembers.deskQuote.Desk.SurfaceMaterial.ToString();
+            rushValue.Text = GeneralMembers.deskQuote.RushDays.ToString() + " Days";
+            drawersValue.Text = GeneralMembers.deskQuote.Desk.NumberOfDrawers.ToString();
+            total.Text = GeneralMembers.deskQuote.QuoteTotal.ToString(); 
         }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainMenu mainForm = (MainMenu)Tag;
+            mainForm.Show();
+            Close();
+        }
     }
 }

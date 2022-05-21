@@ -93,7 +93,6 @@
             this.mainPicture.Size = new System.Drawing.Size(692, 555);
             this.mainPicture.TabIndex = 4;
             this.mainPicture.TabStop = false;
-            this.mainPicture.Click += new System.EventHandler(this.mainPicture_Click);
             // 
             // MainMenu
             // 
@@ -107,7 +106,6 @@
             this.Controls.Add(this.newQuote);
             this.Name = "MainMenu";
             this.Text = "MegaDesk-TeamBountiful";
-            this.Load += new System.EventHandler(this.MainMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mainPicture)).EndInit();
             this.ResumeLayout(false);
 

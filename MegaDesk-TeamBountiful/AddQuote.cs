@@ -122,10 +122,7 @@ namespace MegaDesk_TeamBountiful
             }
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-        }
-
+ 
 
         private void saveBtn_Click(object sender, EventArgs e)
         {
@@ -159,33 +156,18 @@ namespace MegaDesk_TeamBountiful
             }
 
             deskQuote.QuoteTotal = deskQuote.CalculateDeskQuoteTotal();
+            GeneralMembers.deskQuote = deskQuote;
             var jsonData = JsonConvert.SerializeObject(deskQuote);
             string path = @"C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk-TeamBountiful\quotes.json";
             File.AppendAllText(path, jsonData + Environment.NewLine);
-
-            MainMenu mainForm = (MainMenu)Tag;
-            mainForm.Show();
-            Close();
+             
+            DisplayQuote displayQuoteForm = new DisplayQuote();
+            displayQuoteForm.Tag = this;
+            displayQuoteForm.Show(this);
+            this.Hide();
         }
 
-
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
+               
         private void customerName_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (String.IsNullOrEmpty(customerName.Text))
@@ -198,6 +180,7 @@ namespace MegaDesk_TeamBountiful
                 customerName.ForeColor = Color.Green;
             }
         }
+
         private void customerName_TextChanged(object sender, EventArgs e)
         {
             if (String.IsNullOrEmpty(customerName.Text))
@@ -209,17 +192,6 @@ namespace MegaDesk_TeamBountiful
                 nameError.Text = null;
                 customerName.ForeColor = Color.Green;
             }
-        }
-
-
-        private void label7_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rushOrder_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+        }       
     }
 }
