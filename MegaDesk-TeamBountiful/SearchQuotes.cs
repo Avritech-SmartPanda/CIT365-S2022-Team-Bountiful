@@ -35,8 +35,7 @@ namespace MegaDesk_TeamBountiful
         private void searchButton_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();
-            string path = @"C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk-TeamBountiful\quotes.json";
-                 
+            var path = Path.GetFullPath(@"..\..\Data\quotes.json");
 
             // Open the file to read from.
             string[] readQuote = File.ReadAllLines(path);

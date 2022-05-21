@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -128,7 +129,8 @@ namespace MegaDesk_TeamBountiful
 
         public string[] getRushOrder()
         {
-            string[] text = System.IO.File.ReadAllLines(@"C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk-TeamBountiful\TextFile1.txt");
+            var path = Path.GetFullPath(@"..\..\Data\TextFile1.txt");
+            string[] text = System.IO.File.ReadAllLines(path);
 
             return text;
         }

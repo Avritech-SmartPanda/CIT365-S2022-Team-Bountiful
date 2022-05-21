@@ -28,8 +28,7 @@ namespace MegaDesk_TeamBountiful
             quotesTable.Columns[7].Name = "Total Quote Price";
 
 
-            string path = @"C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk-TeamBountiful\quotes.json";
-
+            var path = Path.GetFullPath(@"..\..\Data\quotes.json");
 
             // Open the file to read from.
             string[] readQuote = File.ReadAllLines(path);
