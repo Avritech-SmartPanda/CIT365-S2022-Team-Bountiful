@@ -138,15 +138,15 @@ namespace MegaDesk_TeamBountiful
 
             switch (rushOrder.GetItemText(rushOrder.SelectedIndex))
             {
-                case "3 Days":
+                case "1":
                     deskQuote.RushDays = 3;
                     break;
 
-                case "5 Days":
+                case "2":
                     deskQuote.RushDays = 5;
                     break;
 
-                case "7 Days":
+                case "3":
                     deskQuote.RushDays = 7;
                     break;
 
@@ -192,6 +192,9 @@ namespace MegaDesk_TeamBountiful
                 nameError.Text = null;
                 customerName.ForeColor = Color.Green;
             }
-        }       
+        }
+
+
+      
     }
 }

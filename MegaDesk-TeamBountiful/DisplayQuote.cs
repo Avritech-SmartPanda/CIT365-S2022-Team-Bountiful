@@ -29,7 +29,7 @@ namespace MegaDesk_TeamBountiful
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MainMenu mainForm = (MainMenu)Tag;
+            MainMenu mainForm = new MainMenu();
             mainForm.Show();
             Close();
         }

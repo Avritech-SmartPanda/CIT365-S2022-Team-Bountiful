@@ -27,7 +27,7 @@ namespace MegaDesk_TeamBountiful
 
         public double CalculateDeskQuoteTotal()
         {
-
+            string[] rushOrderPriceList = getRushOrder();
             double QuoteTotal = 0;
             double DeskDrawersPrice = 0;
             double DeskBasePrice = 200;
@@ -49,45 +49,45 @@ namespace MegaDesk_TeamBountiful
                 case 3:
                     if (DeskArea < 1000)
                     {
-                        DeskRushOrderPrice = 60;
+                        DeskRushOrderPrice = Int32.Parse(rushOrderPriceList[0]);
                     }
                     if (DeskArea >= 1000 && DeskArea <= 2000)
                     {
-                        DeskRushOrderPrice = 70;
+                        DeskRushOrderPrice = Int32.Parse(rushOrderPriceList[1]);
                     }
                     if (DeskArea > 2000)
                     {
-                        DeskRushOrderPrice = 80;
+                        DeskRushOrderPrice = Int32.Parse(rushOrderPriceList[2]);
                     }
                     break;
 
                 case 5:
                     if (DeskArea < 1000)
                     {
-                        DeskRushOrderPrice = 40;
+                        DeskRushOrderPrice = Int32.Parse(rushOrderPriceList[3]);
                     }
                     if (DeskArea >= 1000 && DeskArea <= 2000)
                     {
-                        DeskRushOrderPrice = 50;
+                        DeskRushOrderPrice = Int32.Parse(rushOrderPriceList[4]);
                     }
                     if (DeskArea > 2000)
                     {
-                        DeskRushOrderPrice = 60;
+                        DeskRushOrderPrice = Int32.Parse(rushOrderPriceList[5]);
                     }
                     break;
 
                 case 7:
                     if (DeskArea < 1000)
                     {
-                        DeskRushOrderPrice = 30;
+                        DeskRushOrderPrice = Int32.Parse(rushOrderPriceList[6]);
                     }
                     if (DeskArea >= 1000 && DeskArea <= 2000)
                     {
-                        DeskRushOrderPrice = 35;
+                        DeskRushOrderPrice = Int32.Parse(rushOrderPriceList[7]);
                     }
                     if (DeskArea > 2000)
                     {
-                        DeskRushOrderPrice = 40;
+                        DeskRushOrderPrice = Int32.Parse(rushOrderPriceList[8]);
                     }
                     break;
                 default:
@@ -124,11 +124,13 @@ namespace MegaDesk_TeamBountiful
             }
             return QuoteTotal;
         }
+
+
+        public string[] getRushOrder()
+        {
+            string[] text = System.IO.File.ReadAllLines(@"C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk-TeamBountiful\TextFile1.txt");
+
+            return text;
+        }
     }
-
-
-
-
-
-
 }
