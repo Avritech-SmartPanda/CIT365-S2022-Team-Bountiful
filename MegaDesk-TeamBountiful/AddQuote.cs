@@ -158,7 +158,7 @@ namespace MegaDesk_TeamBountiful
             deskQuote.QuoteTotal = deskQuote.CalculateDeskQuoteTotal();
             GeneralMembers.deskQuote = deskQuote;
             var jsonData = JsonConvert.SerializeObject(deskQuote);
-            var path = Path.GetFullPath(@"..\..\Data\quotes.json");
+            var path = @"..\..\Data\quotes.json";
 
             File.AppendAllText(path, jsonData + Environment.NewLine);
              

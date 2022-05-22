@@ -129,7 +129,7 @@ namespace MegaDesk_TeamBountiful
 
         public string[] getRushOrder()
         {
-            var path = Path.GetFullPath(@"..\..\Data\TextFile1.txt");
+            var path = @"..\..\Data\TextFile1.txt";
             string[] text = System.IO.File.ReadAllLines(path);
 
             return text;
